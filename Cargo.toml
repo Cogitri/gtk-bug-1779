@@ -1,0 +1,14 @@
+[package]
+name = "gtk-test-issue"
+version = "0.0.0"
+authors = ["Rasmus Thomsen <oss@cogitri.dev>"]
+edition = "2018"
+
+[dependencies]
+cairo-rs = "0.6"
+gdk = "0.10"
+gio = "0.6"
+glib = "0.7"
+gtk = {version="0.6", features = ["v3_20"] }
+pango = {version="0.6", features = ["v1_38"] }
+pangocairo = "0.7"
